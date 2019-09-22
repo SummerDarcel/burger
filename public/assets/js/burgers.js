@@ -1,15 +1,15 @@
 $(document).on("click", ".eatButton", function () {
   var burgerId = $(this).data("id");
-  var eaten = $(this).data("eaten");
-  console.log(eaten)
+  var devoured = $(this).data("devoured");
+  console.log(devoured)
 
-  var newEaten = {
-      devoured: eaten
+  var newDevoured = {
+      devoured: devoured
   };
 
   $.ajax("/api/burgers/" + burgerId, {
       method: "PUT",
-      data: newEaten
+      data: newDevoured
   }).then(function () {
       location.reload();
   })
