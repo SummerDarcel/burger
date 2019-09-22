@@ -15,8 +15,7 @@ $(document).on("click", ".eatButton", function () {
   })
 })
 
-
-//Adding Buttons from Search Bar
+//Search button
 $(document).on("click", "#order-button", function(event) {
   event.preventDefault();
   var newBurgerName = $("#burger_name").val().trim();
@@ -30,6 +29,6 @@ $(document).on("click", "#order-button", function(event) {
           location.reload();
       })
   } else {
-      $("#error").text("Please enter a burger name.");
+      $("#error").text("Not A Burger!");
   }
 })
