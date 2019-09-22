@@ -1,13 +1,13 @@
 $(document).on("click", ".eatButton", function () {
-  var burgerId = $(this).data("id");
-  var devoured = $(this).data("devoured");
+  var id = $(this).data("id");
+  var devoured = $(this).attr("devoured");
   console.log(devoured)
 
   var newDevoured = {
       devoured: devoured
   };
 
-  $.ajax("/api/burgers/" + burgerId, {
+  $.ajax("/api/burgers/" + id, {
       method: "PUT",
       data: newDevoured
   }).then(function () {

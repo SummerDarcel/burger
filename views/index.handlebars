@@ -13,22 +13,22 @@
     </div>
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-4 menuDiv" id="menu">
+        <div class="col-4 plateDiv" id="plate">
 
-            <h1 class="menuTitle">Ready to Devour!</h1>
+            <h1 class="plateTitle">Ready to Devour!</h1>
             {{#each burgers}}
             {{#unless devoured}}
-            {{> menu devoured=true}}
+            {{> plate devoured=true}}
             {{/unless}}
             {{/each}}
 
         </div>
         <div class="col-2"></div>
-        <div class="col-4 menuDiv">
-            <h1 class="menuTitle">Devoured!</h1>
+        <div class="col-4 plateDiv">
+            <h1 class="plateTitle">Devoured!</h1>
             {{#each burgers}}
             {{#if devoured}}
-            {{> menu devoured=false}}
+            {{> plate devoured=false}}
             {{/if}}
             {{/each}}
         </div>

@@ -23,14 +23,14 @@ body {
       color:rgba(5, 202, 103, 0.486);;
    }
   
-   #menuTitle {
+   #plateTitle {
       font-family: 'Turret Road', cursive;
     font-weight: bolder;
       position: absolute;
       font-size: 20px;
    }
   
-   .menuDiv {
+   .plateDiv {
        background: rgba(213, 248, 85, 0.562);
        padding: 10px 20px;
        font-family: 'Righteous', cursive;
@@ -43,7 +43,7 @@ body {
      border-radius: 7px;
    }
   
-   .menuTitle {
+   .plateTitle {
       font-family: 'Turret Road', cursive;
       font-size: 20px;
       padding: 20px;
