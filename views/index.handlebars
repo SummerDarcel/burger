@@ -2,7 +2,7 @@
  
     <div class="row">
         <div class="col-xs-12 text-center enter_section">
-            <p>Burger! Burger! Burger!</p>
+            <h1>Eat-Da-Burger!!!</h1>
             <p id="error"></p>
             <form>
                 <label for="burger_name">Burger Name:</label>
@@ -15,7 +15,7 @@
         <div class="col-1"></div>
         <div class="col-4 plateDiv" id="plate">
 
-            <h1 class="plateTitle">Ready to Devour!</h1>
+            <h2 class="plateTitle">Ready to Devour!</h2>
             {{#each burgers}}
             {{#unless devoured}}
             {{> burgers/plate devoured=true}}
@@ -25,7 +25,7 @@
         </div>
         <div class="col-2"></div>
         <div class="col-4 plateDiv">
-            <h1 class="plateTitle">Devoured!</h1>
+            <h2 class="plateTitle">Devoured!</h2>
             {{#each burgers}}
             {{#if devoured}}
             {{> burgers/plate devoured=false}}

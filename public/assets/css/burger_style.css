@@ -1,46 +1,40 @@
-body {
-  background-image:url "public/assets/img/Best-Burger-5.jpg";
-    background-color: rgba(9, 95, 243, 0.995);
-  }
   
   h1 {
     text-align: center; 
     margin-top: 5px;
+    font-size:35px;
+
   }
-  
+ 
    #burgerName {
       padding-right: 30px;
       color:black;
+      border: 2px solid blue;
    }
-  
-   #apiLink, #repoLink {
-     color: rgb(179, 16, 16);
-   }
-  
-   #apiLink:hover, #repoLink:hover {
-      color:rgba(2, 59, 31, 0.486);;
-   }
+  #burger_name {
+    color:black;
+    border: 2px solid blue
+  }
   
    #plateTitle {
       font-weight: bolder;
       position: absolute;
-      font-size: 20px;
+      font-size: 25px;
    }
   
    .plateDiv {
        background: rgba(213, 248, 85, 0.562);
        padding: 10px 20px;
        font-family: 'Righteous', cursive;
-       font-size: 16px;
+       font-size: 18px;
        font-weight: 500;
        margin-bottom: 30px;
-     border-left: 2px solid blue;
-     border-top: 2px solid blue;
-     border-radius: 7px;
+       border: 2px solid blue;
+       border-radius: 7px;
    }
   
    .plateTitle {
-      font-size: 20px;
+      font-size: 25px;
       padding: 20px;
       text-align: center;
    }
