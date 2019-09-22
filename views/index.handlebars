@@ -18,7 +18,7 @@
             <h1 class="plateTitle">Ready to Devour!</h1>
             {{#each burgers}}
             {{#unless devoured}}
-            {{> plate devoured=true}}
+            {{> burgers/plate devoured=true}}
             {{/unless}}
             {{/each}}
 
@@ -28,7 +28,7 @@
             <h1 class="plateTitle">Devoured!</h1>
             {{#each burgers}}
             {{#if devoured}}
-            {{> plate devoured=false}}
+            {{> burgers/plate devoured=false}}
             {{/if}}
             {{/each}}
         </div>

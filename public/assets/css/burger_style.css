@@ -1,31 +1,28 @@
 body {
-    background-color: rgba(35, 114, 252, 0.995);
+  background-image:url "public/assets/img/Best-Burger-5.jpg";
+    background-color: rgba(9, 95, 243, 0.995);
   }
   
   h1 {
-    font-family: 'Turret Road', cursive;
-    color: white;
     text-align: center; 
     margin-top: 5px;
   }
   
    #burgerName {
-      font-family: 'Turret Road', cursive;
-      color:white;
       padding-right: 30px;
+      color:black;
    }
   
    #apiLink, #repoLink {
-     color: white;
+     color: rgb(179, 16, 16);
    }
   
    #apiLink:hover, #repoLink:hover {
-      color:rgba(5, 202, 103, 0.486);;
+      color:rgba(2, 59, 31, 0.486);;
    }
   
    #plateTitle {
-      font-family: 'Turret Road', cursive;
-    font-weight: bolder;
+      font-weight: bolder;
       position: absolute;
       font-size: 20px;
    }
@@ -37,14 +34,12 @@ body {
        font-size: 16px;
        font-weight: 500;
        margin-bottom: 30px;
-     color: white;
      border-left: 2px solid blue;
      border-top: 2px solid blue;
      border-radius: 7px;
    }
   
    .plateTitle {
-      font-family: 'Turret Road', cursive;
       font-size: 20px;
       padding: 20px;
       text-align: center;
@@ -69,11 +64,11 @@ body {
       margin: 20px auto;
       font-family: 'Turret Road', cursive;
       font-size: 20px;
-      color: white;
   }
   
   form {
       margin: 10px auto;
+      border:black;
   }
   
   input {
@@ -92,7 +87,7 @@ body {
       font-family: 'Open Sans', sans-serif;
       font-weight: 600;
       font-size: 12px;
-      background: rgba(213, 248, 85, 0.562);
+      background: rgba(4, 31, 185, 0.562);
       color: rgb(255, 255, 255);
       border: none;
   }
