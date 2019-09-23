@@ -1,5 +1,10 @@
   
-  h1 {
+  body {
+    background-image: url("/public/assets/img/Best-Burger-5.jpg");
+    background-size: cover;
+    background-color: aqua;
+}
+h1 {
     text-align: center; 
     margin-top: 5px;
     font-size:35px;

@@ -1,6 +1,6 @@
 $(document).on("click", ".eatButton", function () {
   var id = $(this).data("id");
-  var devoured = $(this).attr("devoured");
+  var devoured = $(this).attr("data-eaten");
   console.log(devoured)
 
   var newDevoured = {

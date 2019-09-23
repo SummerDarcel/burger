@@ -24,13 +24,13 @@ INSERT INTO burgers (burger_name)
 VALUES
 ("Burgerlich-Hamburg-er");
 
-INSERT INTO burgers (burger_name,devoured)
+INSERT INTO burgers (burger_name)
 VALUES
-("Uniburger-Montreal", ture);
+("Uniburger-Montreal");
 
-INSERT INTO burgers (burger_name, devoured)
+INSERT INTO burgers (burger_name)
 VALUES
-("Double Patties-Perth", true);
+("Double Patties-Perth");
 
 INSERT INTO burgers (burger_name)
 VALUES
