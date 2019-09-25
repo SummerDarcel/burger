@@ -22,7 +22,8 @@ $(document).on("click", "#order-button", function(event) {
 
   if (newBurgerName) {
       var newBurger = {
-          burger_name: newBurgerName
+          burger_name: newBurgerName,
+          data: newDevoured
       }
 
       $.post("/api/burgers", newBurger, function() {
