@@ -28,19 +28,20 @@ router.post("/api/burgers", function(req, res) {
 });
 
 router.put("/api/burgers/:id", function(req, res) {
-  var condition = "id = " + req.params.id;
+  res.json({ id: req.params.id, condition, body: req.body });
+  // var condition = "id = " + req.params.id;
 
-  console.log("condition", condition);
+  // console.log("condition", condition);
 
-  burger.update({
-    devoured: req.body.devoured
-  }, condition, function(result) {
-    if (result.changedRows == 0) {
-      return res.status(404).send('Not found');
-    } else {
-      res.status(200).json({whatever: true});
-    }
-  });
+  // burger.update({
+  //   devoured: req.body.devoured
+  // }, condition, function(result) {
+  //   if (result.changedRows == 0) {
+  //     return res.status(404).send('Not found');
+  //   } else {
+  //     res.status(200).json({whatever: true});
+  //   }
+  // });
 });
 
 // router.delete("/api/burgers/:id", function(req, res) {
